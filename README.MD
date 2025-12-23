@@ -1,7 +1,7 @@
-# 👑 WhatsApp Bot by Queen Anju MD
+# 👑 WhatsApp Bot by ZYAA MD
 
 Hey there! 🌟  
-Welcome to **Queen Anju MD’s WhatsApp Bot**—your friendly WhatsApp assistant powered by Node.js and Baileys. Scan the QR, say hi, and let the magic happen! ✨💬
+Welcome to **ZYAA MD’s WhatsApp Bot**—your friendly WhatsApp assistant powered by Node.js and Baileys. Scan the QR, say hi, and let the magic happen! ✨💬
 
 ---
 
