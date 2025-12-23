@@ -41,5 +41,5 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "ZYAA_MD=70c75e59239bc4837",
-PORT: process.env.PORT || "8000"
+PORT: process.env.PORT || "8"
 };
