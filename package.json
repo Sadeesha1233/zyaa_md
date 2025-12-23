@@ -1,0 +1,20 @@
+{
+  "name": "zyaa_md",
+  "version": "1.0.0",
+  "description": "WhatsApp bot example, Prabat MD style",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "prabat-md"
+  ],
+  "author": "sadeesha nethsara",
+  "license": "MIT",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.19.0"
+  }
+}
