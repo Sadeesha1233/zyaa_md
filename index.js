@@ -1,8 +1,17 @@
 const { Client } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
-const commands = require('./commands');
+const fs = require('fs');
+const path = require('path');
 
 const client = new Client();
+
+// commands folder එකේ සියලු files load කරන්න
+const commands = {};
+const commandFiles = fs.readdirSync(path.join(__dirname, 'commands'));
+for (const file of commandFiles){
+    const cmd = require(`./commands/${file}`);
+    commands[cmd.command] = cmd.reply;
+}
 
 client.on('qr', (qr) => {
     qrcode.generate(qr, { small: true });
