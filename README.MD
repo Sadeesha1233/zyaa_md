@@ -1,4 +1,4 @@
-# 👑 WhatsApp Bot by ZYAA MD
+# 👑 ZYAA MD
 
 Hey there! 🌟  
 Welcome to **ZYAA MD’s WhatsApp Bot**—your friendly WhatsApp assistant powered by Node.js and Baileys. Scan the QR, say hi, and let the magic happen! ✨💬
