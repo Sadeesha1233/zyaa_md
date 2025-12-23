@@ -58,3 +58,6 @@ client.on('message', message => {
 });
 
 client.initialize();
+
+
+npm start
